@@ -1,0 +1,101 @@
+brand,model,model_year,mileage,fuel_type,horsepower,engine_liters,cylinders,transmission,ext_col,int_col,accident,clean_title,price
+Lexus,RC 350 F Sport,2021,23436,Gasoline,311.0,3.5,6.0,6-Speed A/T,Black,Black,0,1,41927
+Jaguar,F-TYPE,2020,15903,Gasoline,,2.0,,Automatic,Silver,Black,0,0,47998
+Chrysler,300C SRT8,2006,43000,Gasoline,425.0,6.1,8.0,5-Speed A/T,Silver,Black,1,1,19995
+BMW,Z4 sDrive28i,2014,36812,Gasoline,240.0,2.0,4.0,Transmission w/Dual Shift Mode,White,Beige,0,1,27000
+Audi,S7 4.0T Premium Plus,2017,52500,Gasoline,450.0,4.0,8.0,Transmission w/Dual Shift Mode,Gray,Gray,0,1,39999
+Audi,Q7 45 Premium Plus,2021,68000,Gasoline,248.0,2.0,4.0,8-Speed A/T,Blue,Black,0,1,36499
+Audi,TT RS 2.5T,2018,20675,Gasoline,400.0,2.5,5.0,Transmission w/Dual Shift Mode,Gray,Gray,0,1,76000
+Nissan,Titan XD SV,2020,10001,Gasoline,,5.6,8.0,9-Speed Automatic,Black,Black,0,1,47214
+Porsche,911 Carrera C2S,2005,28500,Gasoline,355.0,3.8,6.0,6-Speed M/T,Silver,Black,0,1,63500
+Tesla,Model 3 Standard Range Plus,2021,21600,,271.0,,,A/T,White,Black,0,1,31000
+Aston,Martin DBX Base,2021,2353,Gasoline,,4.0,8.0,9-Speed Automatic,Green,Sahara Tan,0,1,159500
+Chevrolet,Bolt EUV Premier,2022,7624,,,,,1-Speed Automatic,Mosaic Black Metallic,Jet Black,0,1,31985
+Land,Rover Range Rover Autobiography,2023,324,Gasoline,,4.4,,Automatic,Black,Blk,0,0,199998
+BMW,X5 M Base,2023,4348,Gasoline,,4.4,8.0,8-Speed Automatic,Alpine White,Black,0,0,105900
+Volvo,V60 Cross Country T5,2020,10500,Gasoline,250.0,2.0,4.0,8-Speed A/T,White,Black,0,1,36000
+Audi,Q5 2.0T Premium Plus,2013,111773,Gasoline,211.0,2.0,4.0,8-Speed A/T,Brown,Beige,0,1,17000
+Maserati,Quattroporte Base,2005,32000,Gasoline,394.0,4.2,8.0,Transmission w/Dual Shift Mode,Red,Beige,1,1,2954083
+Volvo,C30 T5 Premier Plus,2013,73000,Gasoline,227.0,2.5,5.0,A/T,Silver,Black,0,1,13900
+RAM,2500 Laramie,2017,67483,Gasoline,410.0,6.4,8.0,6-Speed A/T,Brown,Beige,1,1,46500
+Mercedes-Benz,GLS 450 Base 4MATIC,2017,46100,Gasoline,362.0,3.0,6.0,9-Speed A/T,Black,Beige,1,1,33000
+INFINITI,FX50 Base,2011,84900,Gasoline,390.0,5.0,8.0,7-Speed A/T,Silver,Black,0,0,22450
+RAM,2500 SLT,2017,86000,Diesel,350.0,6.7,6.0,6-Speed A/T,Gray,Gray,1,1,41000
+Audi,A7 55 Premium,2020,27100,Hybrid,335.0,3.0,6.0,A/T,White,Black,0,1,50000
+Kia,Telluride LX,2023,5500,Gasoline,291.0,3.8,6.0,8-Speed A/T,Silver,Black,0,1,40000
+BMW,M8 Base,2020,25520,Gasoline,,4.4,8.0,8-Speed Automatic,Brands Hatch Gray Metallic,Black,0,0,84900
+Ford,Shelby GT350R Base,2018,18500,Gasoline,526.0,5.2,8.0,M/T,Blue,Black,1,1,77999
+Dodge,Viper GTC,2017,1389,Gasoline,645.0,8.4,10.0,M/T,Black,Black,0,1,489995
+BMW,335 i,2010,91545,Gasoline,300.0,3.0,6.0,6-Speed A/T,Black,Black,0,1,13000
+BMW,435 Gran Coupe i,2015,60100,Gasoline,300.0,3.0,6.0,8-Speed A/T,Blue,Beige,0,1,24995
+Tesla,Model Y Performance,2022,25250,,455.0,,,1-Speed A/T,White,White,0,1,47800
+Maserati,GranTurismo MC,2018,18000,Gasoline,454.0,4.7,8.0,Transmission w/Dual Shift Mode,Red,Black,0,1,67000
+Dodge,Ram 1500 SRT-10 Quad Cab,2005,138450,Gasoline,500.0,8.3,10.0,4-Speed A/T,Red,Black,1,1,19000
+Buick,LaCrosse CX,2007,53000,Gasoline,200.0,3.8,6.0,4-Speed A/T,Red,Gray,0,1,6500
+Toyota,Sequoia Limited,2006,190656,Gasoline,273.0,4.7,8.0,A/T,Black,Gray,1,1,8900
+Buick,Enclave Premium,2017,139105,Gasoline,,3.6,6.0,6-Speed Automatic,Iridium Metallic,Light Titanium,1,1,17550
+Mercedes-Benz,AMG GT 53 Base,2020,22000,Hybrid,429.0,3.0,6.0,9-Speed A/T,Gray,Black,0,1,83999
+Ford,F-350 Lariat Super Duty Crew Cab,2009,130200,Diesel,350.0,6.4,8.0,5-Speed A/T,White,Beige,0,1,28900
+MINI,Hardtop Cooper S,2017,44300,Gasoline,189.0,2.0,4.0,6-Speed M/T,Silver,Black,0,1,20784
+Honda,Pilot Elite,2021,42653,Gasoline,,3.5,6.0,9-Speed Automatic,Gray,Black,0,0,38998
+Porsche,Boxster S,2005,95170,Gasoline,280.0,3.2,6.0,6-Speed M/T,Blue,Gray,0,1,24900
+Audi,A6 2.0T Premium Plus,2016,63398,Gasoline,252.0,2.0,4.0,A/T,White,Gray,1,1,19500
+Ford,Mustang GT Premium,2016,40570,Gasoline,435.0,5.0,8.0,6-Speed M/T,Gray,Black,1,1,30490
+Chrysler,300 Base,2014,85000,Gasoline,292.0,3.6,6.0,8-Speed A/T,White,,1,1,11250
+BMW,X6 xDrive35i,2018,27214,Gasoline,300.0,3.0,6.0,Transmission w/Dual Shift Mode,Black,Black,1,1,40950
+MINI,Convertible Cooper,2022,15544,Gasoline,134.0,1.5,3.0,A/T,Blue,Brown,0,0,28000
+BMW,535 i xDrive,2015,65000,Gasoline,300.0,3.0,6.0,Transmission w/Dual Shift Mode,Silver,Black,0,1,24995
+Nissan,GT-R Premium,2009,88000,Gasoline,480.0,3.8,6.0,Transmission w/Dual Shift Mode,White,White,1,1,57000
+Chevrolet,Suburban LT,2017,98888,Gasoline,,6.0,8.0,A/T,White,Black,1,1,29000
+Land,Rover Range Rover HSE,2012,66500,Gasoline,385.0,5.0,8.0,A/T,Silver,Black,0,1,19950
+Kia,Optima Hybrid EX,2013,104994,Hybrid,199.0,2.4,4.0,6-Speed A/T,Black,Beige,0,1,9000
+INFINITI,QX70 Base,2014,71097,Gasoline,325.0,3.7,6.0,7-Speed A/T,Black,Black,0,1,18995
+Lexus,ES 350 Base,2010,113500,Gasoline,272.0,3.5,6.0,A/T,Red,Beige,1,1,11000
+Ford,F-150 XLT,2020,92000,Gasoline,375.0,3.5,6.0,10-Speed A/T,Gray,Black,0,1,29999
+Mercedes-Benz,Metris Base,2020,14000,Gasoline,208.0,2.0,4.0,7-Speed A/T,Black,Beige,0,1,48000
+Mercedes-Benz,SL-Class SL 550,2013,24933,Gasoline,429.0,4.6,8.0,Transmission w/Dual Shift Mode,Silver,Red,1,1,40250
+Porsche,Panamera 4S,2017,42596,Gasoline,440.0,2.9,6.0,Transmission w/Dual Shift Mode,Black,Black,0,1,78000
+Tesla,Model 3 Mid Range,2018,32000,,271.0,,,A/T,Black,Black,0,1,29999
+Dodge,Avenger SE,2014,124705,E85 Flex Fuel,283.0,3.6,6.0,A/T,Black,Black,0,1,6499
+RAM,2500 Tradesman,2020,41000,Gasoline,410.0,6.4,8.0,8-Speed A/T,White,Gray,0,0,45515
+GMC,Yukon SLT,2018,85500,Gasoline,355.0,5.3,8.0,A/T,Black,Black,1,1,35899
+BMW,X5 xDrive40i,2020,4880,Gasoline,,3.0,,Automatic,White,Black,0,0,57998
+Lexus,RX 350 RX 350 F SPORT Handling,2022,11238,Gasoline,,3.5,,Automatic,Atomic Silver,Black,0,0,54798
+Ford,F-250 Lariat,2017,132269,E85 Flex Fuel,385.0,6.2,8.0,A/T,Gray,Black,0,1,35900
+Honda,Odyssey EX-L,2022,18385,Gasoline,280.0,3.5,6.0,10-Speed A/T,Red,Beige,0,1,37950
+Nissan,Titan XD SV,2017,80000,Gasoline,390.0,5.6,8.0,7-Speed A/T,Silver,Black,0,1,23800
+Lexus,IS 300 Base,2018,50992,Gasoline,260.0,3.5,6.0,A/T,White,Gray,1,1,28000
+BMW,340 i,2017,98600,Gasoline,320.0,3.0,6.0,8-Speed A/T,Silver,Black,0,1,26500
+Audi,A7 3.0T Premium,2019,45900,Hybrid,335.0,3.0,6.0,Transmission w/Dual Shift Mode,Black,Black,1,1,41500
+Jeep,Wrangler Sport,2018,23399,Gasoline,,2.0,4.0,8-Speed Automatic,Black Clearcoat,Black,0,0,28999
+Honda,Civic LX,2016,111000,Gasoline,158.0,2.0,4.0,A/T,Blue,Black,0,1,13000
+Chevrolet,Corvette Grand Sport,2011,12300,Gasoline,430.0,6.2,8.0,6-Speed A/T,Red,Black,0,1,45000
+Porsche,911 Carrera S,2023,1877,Gasoline,443.0,3.0,6.0,8-Speed A/T,Red,Red,0,1,185950
+Bentley,Continental GT W12,2021,16146,Gasoline,,6.0,,Automatic,Fountain Blue,Linen,0,0,239991
+Mercedes-Benz,SL-Class SL600 Roadster,2005,93000,Gasoline,493.0,5.5,12.0,A/T,Black,Black,0,1,22500
+Nissan,Armada LE,2009,87130,Gasoline,317.0,5.6,8.0,A/T,Brown,Black,0,1,20000
+Toyota,Camry Solara SLE,2008,73000,Gasoline,210.0,3.3,6.0,5-Speed A/T,Blue,Beige,1,1,11500
+RAM,1500 Laramie,2020,21165,Gasoline,,5.7,8.0,8-Speed Automatic,Bright White Clearcoat,Black,0,0,46105
+Chevrolet,Monte Carlo SS,2000,74000,Gasoline,200.0,3.8,6.0,4-Speed A/T,Red,,0,1,4700
+Tesla,Model 3 Long Range,2021,18000,,,,,A/T,Black,Black,0,1,42500
+BMW,330 i,2005,59300,Gasoline,225.0,3.0,6.0,M/T,Red,Black,0,1,30900
+Rolls-Royce,Wraith Base,2016,21000,Gasoline,624.0,6.6,12.0,A/T,Brown,Black,0,0,217000
+Nissan,Maxima SV,2014,117000,Gasoline,290.0,3.5,6.0,Transmission w/Dual Shift Mode,White,Black,1,1,10900
+Subaru,Impreza WRX Base,2013,113000,Gasoline,265.0,2.5,4.0,5-Speed M/T,Blue,Black,1,1,16000
+Chevrolet,Corvette Base,2002,44168,Gasoline,350.0,5.7,8.0,4-Speed A/T,Orange,Black,0,1,30000
+Land,Rover Range Rover Sport HSE,2013,111000,Gasoline,375.0,5.0,8.0,6-Speed A/T,Black,Black,1,1,15000
+Ford,Explorer XLT,2017,161000,Gasoline,290.0,3.5,6.0,6-Speed A/T,Gray,Black,0,1,17500
+Porsche,911 Carrera 4,2013,67522,Gasoline,350.0,3.4,6.0,7-Speed A/T,Gray,Black,1,1,59500
+MINI,Cooper S Base,2012,152000,Gasoline,181.0,1.6,4.0,6-Speed A/T,White,Black,0,1,9000
+Chevrolet,Silverado 2500 LT H/D Extended Cab,2006,169000,Diesel,360.0,6.6,8.0,6-Speed A/T,White,Gray,0,1,19500
+Ford,Explorer ST,2021,39105,Gasoline,,3.0,6.0,10-Speed Automatic,Black,,0,1,44605
+Honda,Civic EX,2020,13935,Gasoline,174.0,1.5,4.0,CVT Transmission,Gray,Black,0,1,26000
+Lexus,RX 330 Base,2006,110250,Gasoline,230.0,3.3,6.0,A/T,White,Beige,0,1,11000
+Porsche,911 Carrera 4S,2006,80000,Gasoline,355.0,3.8,6.0,6-Speed M/T,Black,Beige,0,1,43000
+Chevrolet,Impala Base,2004,64500,Gasoline,180.0,3.4,6.0,A/T,Beige,Beige,0,1,5900
+Dodge,Charger R/T,2014,95000,Gasoline,370.0,5.7,8.0,Transmission w/Dual Shift Mode,Black,Black,0,1,17900
+Ford,Explorer XLT,2020,42609,Gasoline,,2.3,4.0,10-Speed Automatic,Magnetic Metallic,Ebony,1,1,32107
+Buick,LaCrosse Leather,2012,19079,Hybrid,182.0,2.4,4.0,6-Speed A/T,Gold,Beige,0,1,15995
+Porsche,911 Carrera 4S Cabriolet,2009,25500,Gasoline,385.0,3.8,6.0,6-Speed M/T,Black,Black,0,1,79995
+Jeep,Wrangler Unlimited Sport,2016,67499,Gasoline,285.0,3.6,6.0,6-Speed M/T,Beige,Black,0,1,27500
+Toyota,4Runner Sport,2004,220450,Gasoline,245.0,4.0,6.0,A/T,Gray,Gray,0,1,8550

@@ -1,0 +1,21 @@
+row_id,actual_price,brand,model,model_year,mileage,fuel_type,horsepower,engine_liters,cylinders,transmission,ext_col,int_col,accident,clean_title,pred_linear_regression,pred_decision_tree,pred_random_forest
+83,30000.0,Chevrolet,Corvette Base,2002,44168,Gasoline,350.0,5.7,8.0,4-Speed A/T,Orange,Black,0,1,32182.0,18990.0,28458.0
+53,48000.0,Mercedes-Benz,Metris Base,2020,14000,Gasoline,208.0,2.0,4.0,7-Speed A/T,Black,Beige,0,1,14443.0,27041.0,30957.0
+70,45000.0,Chevrolet,Corvette Grand Sport,2011,12300,Gasoline,430.0,6.2,8.0,6-Speed A/T,Red,Black,0,1,217015.0,229482.0,191009.0
+45,24995.0,BMW,535 i xDrive,2015,65000,Gasoline,300.0,3.0,6.0,Transmission w/Dual Shift Mode,Silver,Black,0,1,31632.0,22461.0,23329.0
+44,28000.0,MINI,Convertible Cooper,2022,15544,Gasoline,134.0,1.5,3.0,A/T,Blue,Brown,0,0,11889.0,27041.0,32389.0
+39,24900.0,Porsche,Boxster S,2005,95170,Gasoline,280.0,3.2,6.0,6-Speed M/T,Blue,Gray,0,1,23462.0,13566.0,16415.0
+22,50000.0,Audi,A7 55 Premium,2020,27100,Hybrid,335.0,3.0,6.0,A/T,White,Black,0,1,48346.0,37312.0,49358.0
+80,217000.0,Rolls-Royce,Wraith Base,2016,21000,Gasoline,624.0,6.6,12.0,A/T,Brown,Black,0,0,196973.0,229482.0,123584.0
+10,159500.0,Aston,Martin DBX Base,2021,2353,Gasoline,,4.0,8.0,9-Speed Automatic,Green,Sahara Tan,0,1,48475.0,37312.0,88876.0
+0,41927.0,Lexus,RC 350 F Sport,2021,23436,Gasoline,311.0,3.5,6.0,6-Speed A/T,Black,Black,0,1,30390.0,37312.0,44205.0
+18,46500.0,RAM,2500 Laramie,2017,67483,Gasoline,410.0,6.4,8.0,6-Speed A/T,Brown,Beige,1,1,69224.0,30103.0,33716.0
+30,67000.0,Maserati,GranTurismo MC,2018,18000,Gasoline,454.0,4.7,8.0,Transmission w/Dual Shift Mode,Red,Black,0,1,301394.0,229482.0,128422.0
+73,22500.0,Mercedes-Benz,SL-Class SL600 Roadster,2005,93000,Gasoline,493.0,5.5,12.0,A/T,Black,Black,0,1,36277.0,18990.0,27167.0
+33,8900.0,Toyota,Sequoia Limited,2006,190656,Gasoline,273.0,4.7,8.0,A/T,Black,Gray,1,1,4285.0,8369.0,9944.0
+90,26000.0,Honda,Civic EX,2020,13935,Gasoline,174.0,1.5,4.0,CVT Transmission,Gray,Black,0,1,14683.0,27041.0,30906.0
+4,39999.0,Audi,S7 4.0T Premium Plus,2017,52500,Gasoline,450.0,4.0,8.0,Transmission w/Dual Shift Mode,Gray,Gray,0,1,116561.0,30904.0,37229.0
+76,46105.0,RAM,1500 Laramie,2020,21165,Gasoline,,5.7,8.0,8-Speed Automatic,Bright White Clearcoat,Black,0,0,61660.0,229482.0,75519.0
+77,4700.0,Chevrolet,Monte Carlo SS,2000,74000,Gasoline,200.0,3.8,6.0,4-Speed A/T,Red,,0,1,17584.0,8369.0,9457.0
+12,199998.0,Land,Rover Range Rover Autobiography,2023,324,Gasoline,,4.4,,Automatic,Black,Blk,0,0,69003.0,229482.0,102092.0
+31,19000.0,Dodge,Ram 1500 SRT-10 Quad Cab,2005,138450,Gasoline,500.0,8.3,10.0,4-Speed A/T,Red,Black,1,1,107340.0,18990.0,33906.0
