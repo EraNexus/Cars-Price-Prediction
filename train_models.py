@@ -1,10 +1,14 @@
 """
-Train & compare Linear Regression, Decision Tree and
-Random Forest on cleaned data.
-
-How to run:
+Usage:
     python train_models.py --data used_cars_sample_clean.csv
-    python train_models.py --data used_cars_clean.csv --tune     
+    python train_models.py --data used_cars_clean.csv --tune     # also tune the forest
+
+
+Outputs (in ./outputs/), raw data for charts and the presentation:
+    results.csv              test-set MAE / RMSE / R², train R², 5-fold CV per model
+    test_predictions.csv     each test car's actual price + every model's prediction
+    feature_importance.csv   Random Forest importance for every feature
+    best_model.joblib        the winning pipeline, ready to load and predict
 """
 
 from __future__ import annotations
@@ -31,7 +35,6 @@ RANDOM_STATE = 42
 NOT_FEATURES = ["vehicle"]
 
 
-# Load data:
 def load_data(path: str, target: str, max_price: float | None = None
               ) -> tuple[pd.DataFrame, pd.Series, list[str], list[str]]:
     df = pd.read_csv(path)
@@ -47,8 +50,6 @@ def load_data(path: str, target: str, max_price: float | None = None
     y = df[target].astype(float)
     X = df.drop(columns=[target]).dropna(axis=1, how="all")  # ignore empty columns
 
-    # Columns that describe the data rather than the car. The price_* ones are
-    # calculated from the price itself, so using them would leak the answer.
     drop = [c for c in X.columns
             if c.endswith(("_outlier", "_status")) or c.startswith("outlier_")]
     drop += [c for c in NOT_FEATURES if c in X.columns]
@@ -61,11 +62,10 @@ def load_data(path: str, target: str, max_price: float | None = None
     return X, y, numeric, categorical
 
 
-# A pinch of preprocessing
 def make_preprocessor(numeric: list[str], categorical: list[str]) -> ColumnTransformer:
     numeric_steps = Pipeline([
-        ("impute", SimpleImputer(strategy="median", add_indicator=True)),  # fill gaps & "was missing" flags
-        ("scale", StandardScaler()),                                   
+        ("impute", SimpleImputer(strategy="median", add_indicator=True)),  # fill gaps + "was missing" flags
+        ("scale", StandardScaler()),                                       # matters for Linear Regression
     ])
     categorical_steps = Pipeline([
         ("impute", SimpleImputer(strategy="constant", fill_value="Unknown")),
@@ -81,7 +81,6 @@ def make_preprocessor(numeric: list[str], categorical: list[str]) -> ColumnTrans
     ])
 
 
-# Models:
 def make_models(numeric, categorical) -> dict[str, TransformedTargetRegressor]:
     regressors = {
         "Linear Regression": LinearRegression(),
@@ -104,8 +103,6 @@ def make_models(numeric, categorical) -> dict[str, TransformedTargetRegressor]:
         for name, reg in regressors.items()
     }
 
-
-# Metrics:
 def score(y_true, y_pred) -> dict[str, float]:
     return {
         "MAE": mean_absolute_error(y_true, y_pred),
@@ -138,6 +135,8 @@ def feature_importance_table(rf_model) -> pd.Series:
     imp.index = imp.index.str.replace(r"^(num|cat)__", "", regex=True)
     return imp.sort_values(ascending=False).rename("importance")
 
+
+
 def main():
     parser = argparse.ArgumentParser(description="Train used car price models.")
     parser.add_argument("--data", required=True, help="Path to the cleaned CSV")
@@ -156,7 +155,7 @@ def main():
     print(f"  Numeric features ({len(numeric)}): {numeric}")
     print(f"  Text features    ({len(categorical)}): {categorical}")
 
-    # Did 80/20 split
+    # 80/20 split, same for every model so the comparison is fair
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=RANDOM_STATE
     )
@@ -168,20 +167,20 @@ def main():
     for name, model in make_models(numeric, categorical).items():
         print(f"Training {name}...")
 
-        # cross-validation 
+        if name == "Random Forest" and args.tune:
+            model = tune_random_forest(model, X_train, y_train)  # returns the tuned model, already fit
+
         cv = cross_validate(
             model, X_train, y_train, cv=kfold,
             scoring=["neg_mean_absolute_error", "r2"], n_jobs=-1,
         )
 
-        if name == "Random Forest" and args.tune:
-            model = tune_random_forest(model, X_train, y_train)
-        else:
+        if not (name == "Random Forest" and args.tune):
             model.fit(X_train, y_train)
 
         y_pred = model.predict(X_test)
         m = score(y_test, y_pred)
-        m["Train_R2"] = r2_score(y_train, model.predict(X_train))  # overfitting or smthn
+        m["Train_R2"] = r2_score(y_train, model.predict(X_train))  # big gap vs test = overfitting
         m["CV_MAE"] = -cv["test_neg_mean_absolute_error"].mean()
         m["CV_R2"] = cv["test_r2"].mean()
         m["CV_R2_std"] = cv["test_r2"].std()
